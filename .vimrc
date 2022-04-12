@@ -45,6 +45,12 @@ set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 set backspace=2
 syntax on
 
+" Pertaining to issue from airline
+" https://github.com/vim-airline/vim-airline/issues/2524
+" Might not be needed
+set hidden
+
+
 " The following line if for highlighting lines greater than 80 columns.
 "highlight longline ctermbg=black ctermfg=white guibg=red
 "match longline /\%>80v.\+/
